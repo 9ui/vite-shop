@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
+    "cz": "git-cz",
     "build": "vite build",
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "clean:lib": "npx rimraf node_modules",
@@ -56,6 +57,11 @@
     "hooks": {
       "pre-commit": "ls-lint && lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     }
   }
 }

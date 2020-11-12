@@ -29,6 +29,7 @@ const viteConfig: UserConfig = {
    * @default 'false'
    */
   open: true,
+
   /**
    * Set to `false` to disable minification, or specify the minifier to use.
    * Available options are 'terser' or 'esbuild'.

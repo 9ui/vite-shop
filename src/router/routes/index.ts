@@ -20,7 +20,8 @@ import { DEFAULT_LAYOUT_COMPONENT } from '../constant';
 export const RootRoute: AppRouteRecordRaw = {
   path: '/',
   name: 'Root',
-  component: DEFAULT_LAYOUT_COMPONENT,
+  // component: DEFAULT_LAYOUT_COMPONENT,
+  redirect: '/home',
   meta: {
     title: 'Root',
   },
@@ -30,7 +31,7 @@ export const RootRoute: AppRouteRecordRaw = {
 export const HomeRoute: AppRouteRecordRaw = {
   path: '/home',
   name: 'Home',
-  component: () => import('/@/views/home/index.vue'),
+  component: DEFAULT_LAYOUT_COMPONENT,
   meta: {
     title: '主页',
   },

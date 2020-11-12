@@ -5,7 +5,7 @@ const EXCEPTION_COMPONENT = () => import('../views/error/index');
 /**
  * @description: default layout
  */
-export const DEFAULT_LAYOUT_COMPONENT = () => import('/@/layouts/default/index');
+export const DEFAULT_LAYOUT_COMPONENT = () => import('/@/views/home/index.vue');
 
 /**
  * @description: page-layout

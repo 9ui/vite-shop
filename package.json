@@ -2,11 +2,19 @@
   "name": "vite-shop",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
     "build": "vite build",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "clean:lib": "npx rimraf node_modules",
+    "ls-lint": "npx ls-lint",
+    "lint": "eslint --fix --ext \"src/**/*.{vue,css,scss,ts}\"",
+    "lint:fix": "eslint --fix --ext \"src/**/*.{vue,css,scss,ts}\"",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
+    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+    "reinstall": "rimraf yarn.lock && rimraf package.lock.json && rimraf node_modules && yarn"
   },
   "dependencies": {
+    "lodash-es": "^4.17.15",
     "vant": "^3.0.0-beta.7",
     "vue": "^3.0.2",
     "vue-router": "^4.0.0-rc.2"
@@ -22,11 +30,13 @@
     "commitizen": "^4.2.2",
     "conventional-changelog-cli": "^2.1.1",
     "conventional-changelog-custom-config": "^0.3.1",
+    "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^7.1.0",
+    "esno": "^0.2.4",
     "husky": "^4.3.0",
     "less": "^3.12.2",
     "lint-staged": "^10.5.1",
@@ -37,6 +47,7 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
+    "tasksfile": "^5.1.1",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5",
     "vite": "^1.0.0-rc.8"

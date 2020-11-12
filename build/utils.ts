@@ -1,6 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-import { networkInterfaces } from 'os';
 import dotenv from 'dotenv';
 import chalk from 'chalk';
 
@@ -14,6 +11,38 @@ export interface ViteEnv {
   VITE_USE_CDN: boolean;
   VITE_DROP_CONSOLE: boolean;
   VITE_BUILD_GZIP: boolean;
+}
+
+function consoleFn(color: string, message: any) {
+  console.log(
+    chalk.blue.bold('********  ') +
+      (chalk as any)[color].bold(message) +
+      chalk.blue.bold('   **********')
+  );
+}
+
+/**
+ * warnConsole
+ * @param message
+ */
+export function successConsole(message: any) {
+  consoleFn('green', '✨ ' + message);
+}
+
+/**
+ * warnConsole
+ * @param message
+ */
+export function errorConsole(message: any) {
+  consoleFn('red', '✨ ' + message);
+}
+
+/**
+ * warnConsole
+ * @param message message
+ */
+export function warnConsole(message: any) {
+  consoleFn('yellow', '✨ ' + message);
 }
 
 /**

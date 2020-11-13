@@ -5,6 +5,7 @@
     "dev": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
     "cz": "git-cz",
     "build": "vite build",
+    "commit": "gitmoji -c",
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "clean:lib": "npx rimraf node_modules",
     "ls-lint": "npx ls-lint",
@@ -15,6 +16,7 @@
     "reinstall": "rimraf yarn.lock && rimraf package.lock.json && rimraf node_modules && yarn"
   },
   "dependencies": {
+    "emoji-regex": "^9.2.0",
     "lodash": "^4.17.20",
     "vant": "^3.0.0-beta.7",
     "vue": "^3.0.2",
@@ -39,6 +41,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^7.1.0",
     "esno": "^0.2.4",
+    "gitmoji-cli": "^3.2.12",
     "husky": "^4.3.0",
     "less": "^3.12.2",
     "lint-staged": "^10.5.1",

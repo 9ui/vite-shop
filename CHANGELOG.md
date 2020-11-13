@@ -1,11 +1,12 @@
 # Changelog
 
-<a name="0.0.0"></a>
+<a name="2.0.1"></a>
 
-## 0.0.0 (2020-11-13)
+## 2.0.1 (2020-11-13)
 
 ### Miscellaneous
 
+- test(test): 测试提交规范 [[a4feb96](https://github.com/9ui/vite-shop/commit/a4feb96ae9df2870b9494647f80542e717f3908c)]
 - feat(): 更新文档 [[c9987e4](https://github.com/9ui/vite-shop/commit/c9987e4fc009bded3a08ce0261c60aa76da460f5)]
 - feat(): 修改文案 [[b5ccb66](https://github.com/9ui/vite-shop/commit/b5ccb660cb6cae1f161abf196e165e039c9ab7a4)]
 - feat(package.json): 新增 log 的配置 [[7b5f09e](https://github.com/9ui/vite-shop/commit/7b5f09e0b96fe232593e442237877ee315c5f506)]

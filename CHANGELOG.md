@@ -1,3 +1,9 @@
+## [0.0.4](https://github.com/9ui/vite-shop/compare/v0.0.3...v0.0.4) (2020-11-13)
+
+### Features
+
+- **配置:** 提示规范测试 ([96dcde7](https://github.com/9ui/vite-shop/commit/96dcde75f2ca5aea57c1e475b0b5e7bff85a2856))
+
 ## [0.0.3](https://github.com/9ui/vite-shop/compare/v0.0.2...v0.0.3) (2020-11-13)
 
 ## [0.0.2](https://github.com/9ui/vite-shop/compare/v0.0.1...v0.0.2) (2020-11-13)

@@ -21,4 +21,5 @@ router.isReady().then(() => {
 });
 
 // Used to share app instances in other modules
+
 setApp(app);

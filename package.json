@@ -5,7 +5,7 @@
     "dev": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
     "cz": "git-cz",
     "build": "vite build",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "clean:lib": "npx rimraf node_modules",
     "ls-lint": "npx ls-lint",
     "lint": "eslint --fix --ext \"src/**/*.{vue,css,scss,ts}\"",

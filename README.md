@@ -96,7 +96,36 @@ module.exports = {
 
 -----------------------------------------
 
+校验文件命令规范 (.ls-lint.yml)
 
+npm install -g @ls-lint/ls-lint # global
+
+npm install @ls-lint/ls-lint # local
+
+文档地址:（https://ls-lint.org/1.x/getting-started/installation.html）
+
+----------------------
+ls:
+  src/*:
+    .js: kebab-case | PascalCase
+    .vue: PascalCase | regex:^index
+    .ts: camelCase | PascalCase
+    .d.ts: kebab-case
+    .mock.ts: kebab-case
+    .data.ts: camelCase | kebab-case
+    .test-d.ts: kebab-case
+    .less: kebab-case | PascalCase
+    .spec.ts: camelCase | PascalCase
+
+ignore:
+  - node_modules
+  - .git
+  - .circleci
+  - .github
+  - .vscode
+  - dist
+  - .local
+--------------------
 
 ```
 
@@ -226,9 +255,5 @@ yarn clean:lib # 删除node_modules，兼容window系统
   - `ci` 持续集成
   - `types` 类型定义文件更改
   - `wip` 开发中
-
-```
-
-```
 
 ```

@@ -21,7 +21,7 @@
 
 <script lang="ts">
   import { reactive, toRefs, defineComponent, onMounted } from 'vue';
-  import { tabs, banners } from '../../mock/home';
+  import { tabs, banners } from '../../data/home';
   export default defineComponent({
     setup() {
       const homeData = reactive({

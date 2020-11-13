@@ -4,6 +4,7 @@
       <component :is="Component" />
     </keep-alive>
   </router-view>
+
   <van-tabbar v-model="state.active" active-color="#ee0a24" inactive-color="#666">
     <van-tabbar-item name="home" icon="wap-home" replace to="/home"> 首页 </van-tabbar-item>
     <van-tabbar-item name="category" icon="wap-nav" replace to="/category"> 分类 </van-tabbar-item>

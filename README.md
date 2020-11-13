@@ -1,6 +1,6 @@
 # Vite Shop 商城
 
-## .安装
+## 新建项目
 
 ```bash
 
@@ -11,6 +11,11 @@ yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
 
 新建项目 yarn create vite-app '项目名'
 
+```
+
+## 安装依赖
+
+```bash
 .配置 `typescrip `
 yarn add -D typescript ts-node @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
@@ -42,6 +47,7 @@ yarn add -D husky lint-staged
 配置适配 引入`postcss`
 
 # yarn add -D postcss-px-to-viewport postcss-loader
+
 # yarn add -D lib-flexible postcss-pxtorem
 
 使用适配方案一(postcss.config)
@@ -181,10 +187,12 @@ yarn report # 生成构建包报表预览
 
 ### 格式化
 
-````bash
+```bash
 yarn lint:stylelint # 样式格式化
 
 yarn lint:prettier # js/ts代码格式化
+
+```
 
 ### 其他
 
@@ -198,11 +206,13 @@ yarn log # 生成CHANGELOG
 yarn clean:cache # 删除缓存
 
 yarn clean:lib # 删除node_modules，兼容window系统
+```
 
 ## Git 提交规范
 
 - 参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范 ([Angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular))
 
+```bash
   - `feat` 增加新功能
   - `fix` 修复问题/BUG
   - `style` 代码风格相关无影响运行结果的
@@ -216,4 +226,9 @@ yarn clean:lib # 删除node_modules，兼容window系统
   - `ci` 持续集成
   - `types` 类型定义文件更改
   - `wip` 开发中
-````
+
+```
+
+```
+
+```

@@ -4,7 +4,7 @@
     <van-search v-model="value" placeholder="请输入搜索关键词" />
   </van-sticky>
   <!-- swiper -->
-  <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white" :height="180">
+  <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
     <van-swipe-item v-for="(b, index) in banners" :key="index">
       <img :src="b.img" class="swiper-img"
     /></van-swipe-item>
@@ -58,8 +58,8 @@
   /** tab */
   .home-grid {
     .van-grid-item__content {
-      padding: 30px;
-      line-height: 45px;
+      padding: 0;
+      line-height: 22px;
     }
 
     .home-tab_icon {

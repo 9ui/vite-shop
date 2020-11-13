@@ -1,3 +1,9 @@
+## [0.0.6](https://github.com/9ui/vite-shop/compare/v0.0.5...v0.0.6) (2020-11-13)
+
+### Reverts
+
+- **回滚:** 代码回滚测试 ([453744d](https://github.com/9ui/vite-shop/commit/453744d66a61559923faadf853ad7c2565f5d507))
+
 ## [0.0.5](https://github.com/9ui/vite-shop/compare/v0.0.4...v0.0.5) (2020-11-13)
 
 ## [0.0.4](https://github.com/9ui/vite-shop/compare/v0.0.3...v0.0.4) (2020-11-13)

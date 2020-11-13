@@ -3,6 +3,7 @@
 ### Bug Fixes
 
 - **bug:** 测试 ([e919979](https://github.com/9ui/vite-shop/commit/e919979427b42ef3282144375d6d5f33080c6f2a))
+- **fix:** 修复测试提交规范不生效问题 ([decb935](https://github.com/9ui/vite-shop/commit/decb9350fe68fd875951f2ca92c98a85fa2d0ddc))
 
 ### Features
 

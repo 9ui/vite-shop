@@ -11,7 +11,11 @@
     "lint:fix": "eslint --fix --ext \"src/**/*.{vue,css,scss,ts}\"",
     "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
     "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
-    "reinstall": "rimraf yarn.lock && rimraf package.lock.json && rimraf node_modules && yarn"
+    "reinstall": "rimraf yarn.lock && rimraf package.lock.json && rimraf node_modules && yarn",
+    "release:init": "standard-version --first-release ",
+    "release:patch": "standard-version --release-as patch ",
+    "release:minor": "standard-version --release-as minor ",
+    "release:major": "standard-version --release-as major "
   },
   "dependencies": {
     "emoji-regex": "^9.2.0",
@@ -47,6 +51,7 @@
     "lint-staged": "^10.5.1",
     "postcss-px-to-viewport": "^1.1.1",
     "prettier": "^2.1.2",
+    "standard-version": "^9.0.0",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",

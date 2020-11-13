@@ -1,3 +1,9 @@
+## [0.0.2](https://github.com/9ui/vite-shop/compare/v0.0.1...v0.0.2) (2020-11-13)
+
+### Features
+
+- **feat:** 修改配置文件 ([aae134b](https://github.com/9ui/vite-shop/commit/aae134bd26b361de137ad42a11e0a602954fe7d1))
+
 ## [0.0.1](https://github.com/9ui/vite-shop/compare/674ce50db5bb9b5919b5a92ce044b379645afc56...v0.0.1) (2020-11-13)
 
 ### Bug Fixes

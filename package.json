@@ -1,6 +1,6 @@
 {
   "name": "vite-shop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
     "cz": "git cz",

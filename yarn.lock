@@ -1816,7 +1816,7 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cz-conventional-changelog@3.3.0:
+cz-conventional-changelog@3.3.0, cz-conventional-changelog@^3.3.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz#9246947c90404149b3fe2cf7ee91acad3b7d22d2"
   integrity sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==
@@ -1829,6 +1829,18 @@ cz-conventional-changelog@3.3.0:
     word-wrap "^1.0.3"
   optionalDependencies:
     "@commitlint/load" ">6.1.1"
+
+cz-customizable@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.npmjs.org/cz-customizable/-/cz-customizable-6.3.0.tgz#1b24e5b84e1fccaa18ad837612b233b8c51d7882"
+  integrity sha512-MWGmWa45v4Ds3NJNNwQc3GCFdjtH3k4ypDWoWkwultMVLf7aOHR9VaXGYGZHLOQS4sMfbkBSjNUYoXCSmLuRSA==
+  dependencies:
+    editor "1.0.0"
+    find-config "^1.0.0"
+    inquirer "^6.3.1"
+    lodash "^4.17.19"
+    temp "^0.9.0"
+    word-wrap "^1.2.3"
 
 dargs@^4.0.1:
   version "4.1.0"
@@ -2074,6 +2086,11 @@ duplexer@0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
   integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
+
+editor@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/editor/-/editor-1.0.0.tgz#60c7f87bd62bcc6a894fa8ccd6afb7823a24f742"
+  integrity sha1-YMf4e9YrzGqJT6jM1q+3gjok90I=
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -2547,6 +2564,13 @@ fill-range@^7.0.1:
   integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
   dependencies:
     to-regex-range "^5.0.1"
+
+find-config@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/find-config/-/find-config-1.0.0.tgz#eafa2b9bc07fa9c90e9a0c3ef9cecf1cc800f530"
+  integrity sha1-6vorm8B/qckOmgw++c7PHMgA9TA=
+  dependencies:
+    user-home "^2.0.0"
 
 find-node-modules@2.0.0:
   version "2.0.0"
@@ -3295,7 +3319,7 @@ inquirer-autocomplete-prompt@^1.0.1:
     run-async "^2.4.0"
     rxjs "^6.6.2"
 
-inquirer@6.5.2:
+inquirer@6.5.2, inquirer@^6.3.1:
   version "6.5.2"
   resolved "https://registry.npmjs.org/inquirer/-/inquirer-6.5.2.tgz#ad50942375d036d327ff528c08bd5fab089928ca"
   integrity sha512-cntlB5ghuB0iuO65Ovoi8ogLHiWGs/5yNrtUcKjFhSSiVeAIVpD7koaSU9RM8mpXw5YDi9RdYXGQMaOURB7ycQ==
@@ -4669,6 +4693,11 @@ ora@^5.0.0, ora@^5.1.0:
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
+os-homedir@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
+  integrity sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+
 os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
@@ -5553,7 +5582,7 @@ reusify@^1.0.4:
   resolved "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rimraf@2.6.3:
+rimraf@2.6.3, rimraf@~2.6.2:
   version "2.6.3"
   resolved "https://registry.npmjs.org/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
@@ -6234,6 +6263,14 @@ temp-dir@^2.0.0:
   resolved "https://registry.npmjs.org/temp-dir/-/temp-dir-2.0.0.tgz#bde92b05bdfeb1516e804c9c00ad45177f31321e"
   integrity sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==
 
+temp@^0.9.0:
+  version "0.9.4"
+  resolved "https://registry.npmjs.org/temp/-/temp-0.9.4.tgz#cd20a8580cb63635d0e4e9d4bd989d44286e7620"
+  integrity sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==
+  dependencies:
+    mkdirp "^0.5.1"
+    rimraf "~2.6.2"
+
 tempfile@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/tempfile/-/tempfile-3.0.0.tgz#5376a3492de7c54150d0cc0612c3f00e2cdaf76c"
@@ -6610,6 +6647,13 @@ use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==
+
+user-home@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/user-home/-/user-home-2.0.0.tgz#9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f"
+  integrity sha1-nHC/2Babwdy/SGBODwS4tJzenp8=
+  dependencies:
+    os-homedir "^1.0.0"
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"

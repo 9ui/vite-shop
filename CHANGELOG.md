@@ -1,5 +1,9 @@
 # 0.0.0 (2020-11-13)
 
+### Bug Fixes
+
+- **bug:** 测试 ([e919979](https://github.com/9ui/vite-shop/commit/e919979427b42ef3282144375d6d5f33080c6f2a))
+
 ### Features
 
 - **test:** 测试提交 ([a8a294e](https://github.com/9ui/vite-shop/commit/a8a294e998456ea6c083a6a7e946638a9548621b))

@@ -1,7 +1,7 @@
 module.exports = {
   types: [
     { value: 'init', name: 'init:     初始提交' },
-    { value: 'feat', name: 'feat:     增加新功能' },
+    { value: '✨feat', name: 'feat:     增加新功能' },
     { value: 'fix', name: 'fix:      修复bug' },
     { value: 'ui', name: 'ui:       更新UI' },
     { value: 'refactor', name: 'refactor: 代码重构' },

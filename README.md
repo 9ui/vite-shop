@@ -38,6 +38,25 @@ yarn add -D stylelint stylelint-config-prettier stylelint-config-standard stylel
 yarn add -D @commitlint/cli @commitlint/config-conventional commitizen conventional-changelog-cli conventional-changelog-custom-config
 
 新建 commitlint.config.js 文件
+----------------
+Angular规范
+
+cz-cli - cz工具
+
+cz-customizable - cz适配器
+
+@commitlint/config-conventional - cz适配器
+
+commitlint - cz校验工具
+
+commitlint-config-cz - cz校验工具的校验规则
+
+validate-commit-msg - cz校验工具
+
+conventional-changelog - cz日志生成器
+
+commit_msg - git钩子文档
+------------------
 
 引入钩子 `husky` `lint-staged`
 

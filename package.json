@@ -12,10 +12,8 @@
     "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
     "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
     "reinstall": "rimraf yarn.lock && rimraf package.lock.json && rimraf node_modules && yarn",
-    "release:init": "standard-version --first-release ",
-    "release:patch": "standard-version --release-as patch ",
-    "release:minor": "standard-version --release-as minor ",
-    "release:major": "standard-version --release-as major "
+    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
+    "gitmoji": "gitmoji-changelog"
   },
   "dependencies": {
     "emoji-regex": "^9.2.0",
@@ -45,13 +43,13 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^7.1.0",
     "esno": "^0.2.4",
+    "gitmoji-changelog": "^2.1.0",
     "gitmoji-cli": "^3.2.12",
     "husky": "^4.3.0",
     "less": "^3.12.2",
     "lint-staged": "^10.5.1",
     "postcss-px-to-viewport": "^1.1.1",
     "prettier": "^2.1.2",
-    "standard-version": "^9.0.0",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",

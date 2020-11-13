@@ -5,8 +5,6 @@ module.exports = {
     { value: 'fix', name: 'fix:      修复bug' },
     { value: 'ui', name: 'ui:       更新UI' },
     { value: 'refactor', name: 'refactor: 代码重构' },
-    { value: 'release', name: 'release:  发布' },
-    { value: 'deploy', name: 'deploy:   部署' },
     { value: 'docs', name: 'docs:     修改文档' },
     { value: 'test', name: 'test:     增删测试' },
     { value: 'chore', name: 'chore:    更改配置文件' },

@@ -1,3 +1,5 @@
+## [0.0.5](https://github.com/9ui/vite-shop/compare/v0.0.4...v0.0.5) (2020-11-13)
+
 ## [0.0.4](https://github.com/9ui/vite-shop/compare/v0.0.3...v0.0.4) (2020-11-13)
 
 ### Features

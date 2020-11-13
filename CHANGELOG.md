@@ -1,4 +1,4 @@
-# 0.0.0 (2020-11-13)
+## [0.0.1](https://github.com/9ui/vite-shop/compare/674ce50db5bb9b5919b5a92ce044b379645afc56...v0.0.1) (2020-11-13)
 
 ### Bug Fixes
 

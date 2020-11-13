@@ -6,6 +6,7 @@
 
 ### Features
 
+- **config:** 测试配置文件 ([e2595d6](https://github.com/9ui/vite-shop/commit/e2595d6501aa63965cb29131833baf7ac24ce09b))
 - **test:** 测试提交 ([a8a294e](https://github.com/9ui/vite-shop/commit/a8a294e998456ea6c083a6a7e946638a9548621b))
 - 更新文档 ([c9987e4](https://github.com/9ui/vite-shop/commit/c9987e4fc009bded3a08ce0261c60aa76da460f5))
 - 修改文案 ([b5ccb66](https://github.com/9ui/vite-shop/commit/b5ccb660cb6cae1f161abf196e165e039c9ab7a4))

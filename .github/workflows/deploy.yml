@@ -25,19 +25,19 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-      # npm install
+      # 下载依赖
       - name: install
         run: |
           npm install
         env:
           CI: true
-      # build
+      # 构建
       - name: Build
         run: |
           npm run build
         env:
           CI: true
-      # Deploy
+      # 部署
       - name: Deploy
         uses: easingthemes/ssh-deploy@v2.0.7
         env:
